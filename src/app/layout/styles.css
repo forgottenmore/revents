@@ -5,9 +5,9 @@ body {
 .ui.fixed.menu {
     background-image: linear-gradient(
         135deg,
-        rgb(131,56,236) 0%,
         rgb(255,0,110) 69%, 
-        rgba(255, 0, 111)10%
+        rgba(255, 0, 111)10%,
+        rgb(131,56,236) 0%
          );
 }
 
@@ -20,9 +20,9 @@ body {
     align-items: center;
     background-image: linear-gradient(
         135deg,
-         rgb(131,56,236) 0%,
          rgb(255,0,110) 69%, 
-         rgba(255, 0, 111)10%
+         rgba(255, 0, 111)10%,
+         rgb(131,56,236) 0%
          ) !important;
     height: 100vh;
 } 
@@ -33,4 +33,8 @@ body {
 
 .ui.positive.button, .ui.positive.buttons .button {
     background-color: rgb(255,0,110);
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
 }
